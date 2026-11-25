@@ -1,0 +1,32 @@
+<resources>
+    <string name="value_empty">Value is empty</string>
+    <string name="value_blank">Value is blank</string>
+    <string name="value_too_short">Value is too short</string>
+    <string name="value_too_long">Value is too long</string>
+    <string name="phone_illegal">Phone is not usable</string>
+    <string name="gender_must_set">Gender must set</string>
+    <string name="date_must_set">Date must set</string>
+    <string name="date_too_old">Date is too old</string>
+    <string name="date_too_far">Date is too far</string>
+    <string name="duration_too_short">Duration too short</string>
+    <string name="duration_too_long">Duration too long</string>
+    <string name="leader_must_known">Leader must be known</string>
+    <string name="members_not_empty">Members cannot be empty</string>
+    <string name="members_not_enough">Members underloaded</string>
+    <string name="members_too_much">Members overloaded</string>
+
+    <string name="mode_must_set">Mode must set</string>
+    <string name="with_picture_must_set">With picture hint must set</string>
+    <string name="with_hint_must_set">With text hint must set</string>
+    <string name="with_delay_must_set">With delay hint must set</string>
+    <string name="guides_not_empty">Guides cannot be empty</string>
+    <string name="guides_not_enough">It is really short, you should provide more items</string>
+    <string name="guides_too_much">It is really long, you should provide less items</string>
+    <string name="trigger_picture_is_mandatory">Trigger picture is mandatory</string>
+    <string name="hint_label">Choose carefully a label known by labeler</string>
+    <string name="hint_trigger">Choose carefully a picture well labeled</string>
+
+    <string name="guide_state_must_set">Guide state must set</string>
+    <string name="progress_must_configured">Progress must be configured</string>
+
+</resources>

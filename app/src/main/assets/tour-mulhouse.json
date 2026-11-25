@@ -1,0 +1,92 @@
+{
+  "tour" : {
+    "title" : "Un tour mémoriel de Mulhouse",
+    "description" : "Lors de ce tour vous allez pouvoir apercevoir toutes les particularités de cette magnifique ville de Mulhouse",
+    "picture" : {
+      "type" : "asset",
+      "name" : "mulhouse.png"
+    },
+    "mode" : "USER",
+    "withPicture" : "USER",
+    "withHint" : "USER",
+    "withDelay" : "USER"
+  },
+  "guides" : [
+    {
+      "guide" : {
+        "position": 1
+      },
+      "poi" : {
+        "name": "une église typique",
+        "description": "Une église qui est dans la vieille ville de Mulhouse. On peut voir les contreforts qui permettent une résistance accrue aux seismes",
+        "picture": {
+          "type" : "asset",
+          "name" : "church_1.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "church",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut trouver une église dans le coin"
+      }
+    },
+    {
+      "guide" : {
+        "position": 2
+      },
+      "poi" : {
+        "name": "un chateau en ruine",
+        "description": "Un chateau qui est loin de Mulhouse. Il n'a pas résisté, il est en ruine",
+        "picture": {
+          "type" : "asset",
+          "name" : "castel_1.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "castle",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut trouver un chateau à 15 km, aller hop faut marcher"
+      }
+    },
+    {
+      "guide" : {
+        "position": 3
+      },
+      "poi" : {
+        "name": "une statue qui a fait la gloire de Muhlouse",
+        "description": "Une statue maintenant dans un square perdu mais elle a beaucoup changé de place. C'est un travailleur qui est usé par son travail",
+        "picture": {
+          "type" : "asset",
+          "name" : "statue_1.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "statue",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Dans le parc, troisième rue à gauche après la gare"
+      }
+    },
+    {
+      "guide" : {
+        "position": 4
+      },
+      "poi" : {
+        "name": "La plus haute tour d'europe",
+        "description": "Il suffit de lever les yeux vers le ciel et on la voit qui domine la ville",
+        "picture": {
+          "type" : "asset",
+          "name" : "tower_1.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "tower",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Il faut regarder dans le ciel"
+      }
+    }
+  ]
+}

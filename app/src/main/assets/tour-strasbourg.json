@@ -1,0 +1,92 @@
+{
+  "tour" : {
+    "title" : "Un tour mémoriel de Strasbourg",
+    "description" : "Ce tour mémoriel permet d'apercevoir toutes les particularitées de cette capitale européenne de Strasbourg",
+    "picture" : {
+      "type" : "asset",
+      "name" : "strasbourg.png"
+    },
+    "mode" : "USER",
+    "withPicture" : "USER",
+    "withHint" : "USER",
+    "withDelay" : "USER"
+  },
+  "guides" : [
+    {
+      "guide" : {
+        "position": 1
+      },
+      "poi" : {
+        "name": "La cathédrale de Strabourg",
+        "description": "Une cathédrale privée d'une tour ",
+        "picture": {
+          "type" : "asset",
+          "name" : "church_2.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "church",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut aller au centre, chercher une église a qui il manque un bout"
+      }
+    },
+    {
+      "guide" : {
+        "position": 2
+      },
+      "poi" : {
+        "name": "un chateau glorieux",
+        "description": "Un chateau en ruine au coeur de la ville",
+        "picture": {
+          "type" : "asset",
+          "name" : "castel_2.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "castle",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Pas de problème, 10 m à droite de la cathédrale"
+      }
+    },
+    {
+      "guide" : {
+        "position": 3
+      },
+      "poi" : {
+        "name": "Une statue emblème glorieux de Strasbourg",
+        "description": "Elle a vécu mais elle est toujours là",
+        "picture": {
+          "type" : "asset",
+          "name" : "statue_2.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "statue",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut traverser la gare en direction des champs"
+      }
+    },
+    {
+      "guide" : {
+        "position": 4
+      },
+      "poi" : {
+        "name": "Une tour qui domine la ville, m'enfin pas comme Mulhouse",
+        "description": "Un truc de malade",
+        "picture": {
+          "type" : "asset",
+          "name" : "tower_2.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "tower",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Les yeux rivés sur le chemin, la tour sera visible avant de tomber dans le canal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "tour" : {
+    "title" : "Un tour mémoriel de Colmar",
+    "description" : "Ce tour mémoriel permet d'apercevoir toutes les particularitées de cette préfecture du Haut-Rhin",
+    "picture" : {
+      "type" : "asset",
+      "name" : "colmar.png"
+    },
+    "mode" : "USER",
+    "withPicture" : "USER",
+    "withHint" : "USER",
+    "withDelay" : "USER"
+  },
+  "guides" : [
+    {
+      "guide" : {
+        "position": 1
+      },
+      "poi" : {
+        "name": "La collégiale de Colmar",
+        "description": "Une église à taille humaine ",
+        "picture": {
+          "type" : "asset",
+          "name" : "colmar/church_3.jpg"
+        },
+        "media": {
+          "type" : "asset",
+          "name" : "colmar/collegiale.mp4"
+        }
+      },
+      "trigger": {
+        "label" : "building",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut aller au centre, chercher une église"
+      }
+    },
+    {
+      "guide" : {
+        "position": 2
+      },
+      "poi" : {
+        "name": "un chateau en ruine",
+        "description": "Un chateau en ruine à 20 km de la ville",
+        "picture": {
+          "type" : "asset",
+          "name" : "colmar/castel_3.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "castle",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Faut marcher vers la montagne"
+      }
+    },
+    {
+      "guide" : {
+        "position": 3
+      },
+      "poi" : {
+        "name": "Une statue qui représente Colmar",
+        "description": "Toute propre juste sortie du moule",
+        "picture": {
+          "type" : "asset",
+          "name" : "colmar/statue_3.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "statue",
+        "latitude": "",
+        "longitude": "",
+        "hint": "champs de mars et un petit tour"
+      }
+    },
+    {
+      "guide" : {
+        "position": 4
+      },
+      "poi" : {
+        "name": "Une tour au coeur de la ville",
+        "description": "Une ville autour de du point haut",
+        "picture": {
+          "type" : "asset",
+          "name" : "colmar/tower_3.jpg"
+        }
+      },
+      "trigger": {
+        "label" : "tower",
+        "latitude": "",
+        "longitude": "",
+        "hint": "Une fois sur la grande place faut regarder en l'air"
+      }
+    }
+  ]
+}
